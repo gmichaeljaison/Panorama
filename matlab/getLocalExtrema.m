@@ -14,7 +14,7 @@ function [ locs ] = getLocalExtrema(DoGPyramid, DoGLevels, PrincipalCurvature, t
         filMask(5) = 0;
         imFiltered = ordfilt2(im, 8, filMask);
         imMask = (im > imFiltered);
-        imFiltered = im .* imMask;
+        imFiltered = abs(im .* imMask);
         
         % consider 2 neighbor scales
         prevLayer = zeros(size(im)); 

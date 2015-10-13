@@ -10,8 +10,8 @@ tic;
 % img2 = imread('../data/cam/cmu-out-2.jpg');
 % img3 = imread('../data/cam/cmu-out-3.jpg');
 
-img1 = imread('../data/yosemite_test/yosemite1.jpg');
-img2 = imread('../data/yosemite_test/yosemite2.jpg');
+img1 = imread('../data/yosemite_test/yosemite2.jpg');
+img2 = imread('../data/yosemite_test/yosemite1.jpg');
 img3 = imread('../data/yosemite_test/yosemite3.jpg');
 
 % img1 = imresize(img1, 0.3);
